@@ -38,10 +38,11 @@ The scripts call `target/release/relate-flow`. Set `RELATE_FLOW_BIN` to use a di
 
 ## Skill
 
-`relate-flow skill install` writes the embedded skill into the agents it detects. The skill teaches an agent to design a plan from the task in front of it, then drive that plan. It does not describe how to change this repository. That contract is `AGENTS.md`.
+`relate-flow skill install` writes the embedded skill into the agents it detects. The skill teaches an agent to design a plan from the task in front of it, then drive that plan. [docs/from-a-task.md](docs/from-a-task.md) follows that loop on one invoice. Changing this repository is the contract in `AGENTS.md`.
 
 ## Docs
 
+- [docs/from-a-task.md](docs/from-a-task.md) follows one agent from a sentence to a finished invoice.
 - [DESIGN.md](DESIGN.md) is the product contract.
 - [docs/cli.md](docs/cli.md) is the command reference.
 - [docs/architecture.md](docs/architecture.md) is the crate and admission layout.

@@ -1,0 +1,18 @@
+---
+source: crates/relate-flow/tests/cmd_next.rs
+expression: redact(&leased)
+---
+{
+  "action": "run",
+  "step": {
+    "attempt": "a1",
+    "doneWhen": "recorded",
+    "id": "parse",
+    "inputs": {
+      "case": "the case"
+    },
+    "leaseUntil": "[time]",
+    "needs": [],
+    "title": "Parse"
+  }
+}

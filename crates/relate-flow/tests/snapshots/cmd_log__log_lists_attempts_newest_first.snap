@@ -1,0 +1,18 @@
+---
+source: crates/relate-flow/tests/cmd_log.rs
+expression: redact(&log)
+---
+{
+  "attempts": [
+    {
+      "agent": "invoices",
+      "finishedAt": "[time]",
+      "id": "a1",
+      "leaseUntil": "[time]",
+      "note": "done",
+      "outcome": "succeeded",
+      "startedAt": "[time]",
+      "step": "parse"
+    }
+  ]
+}

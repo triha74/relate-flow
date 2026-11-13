@@ -1,0 +1,22 @@
+---
+source: crates/relate-flow/tests/cmd_explain.rs
+expression: explained
+---
+{
+  "disposition": "pending",
+  "draft": true,
+  "lastAttempt": null,
+  "missing": {
+    "needs": [
+      "parse"
+    ],
+    "tokens": []
+  },
+  "needs": [
+    "parse"
+  ],
+  "step": "child",
+  "when": [],
+  "whenAny": [],
+  "why": "waiting on parse"
+}

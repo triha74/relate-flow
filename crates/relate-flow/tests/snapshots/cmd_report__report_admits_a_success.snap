@@ -1,0 +1,10 @@
+---
+source: crates/relate-flow/tests/cmd_report.rs
+expression: redact(&body)
+---
+{
+  "attempt": "a1",
+  "outcome": "succeeded",
+  "result": "ok",
+  "step": "parse"
+}

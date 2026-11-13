@@ -1,0 +1,9 @@
+/target
+**/*.rs.bk
+.relate-flow
+.sonic-logs
+*.rl
+.DS_Store
+
+# gosonic CI logs
+.logs/

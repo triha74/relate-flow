@@ -1,0 +1,19 @@
+[package]
+name = "relate-flow-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+description = "Plan admission library for relate-flow"
+
+[dependencies]
+relate.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+sha2.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+relate.workspace = true
+tempfile = "3"

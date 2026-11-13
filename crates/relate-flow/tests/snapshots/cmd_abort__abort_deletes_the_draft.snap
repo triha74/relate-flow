@@ -1,0 +1,7 @@
+---
+source: crates/relate-flow/tests/cmd_abort.rs
+expression: aborted
+---
+{
+  "aborted": true
+}

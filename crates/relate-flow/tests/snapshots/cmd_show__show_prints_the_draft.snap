@@ -1,0 +1,20 @@
+---
+source: crates/relate-flow/tests/cmd_show.rs
+expression: show
+---
+{
+  "basedOn": null,
+  "draft": true,
+  "goal": "Pay it",
+  "kind": "template",
+  "plan": "plan",
+  "retries": 3,
+  "steps": [
+    {
+      "doneWhen": "recorded",
+      "id": "parse",
+      "produces": "invoice",
+      "title": "Parse"
+    }
+  ]
+}

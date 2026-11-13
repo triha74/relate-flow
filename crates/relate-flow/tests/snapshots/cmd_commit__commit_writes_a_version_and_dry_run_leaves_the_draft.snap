@@ -1,0 +1,16 @@
+---
+source: crates/relate-flow/tests/cmd_commit.rs
+expression: committed
+---
+{
+  "added": [
+    "parse"
+  ],
+  "frontier": [
+    "parse"
+  ],
+  "kept": [],
+  "removed": [],
+  "reopened": [],
+  "version": 1
+}

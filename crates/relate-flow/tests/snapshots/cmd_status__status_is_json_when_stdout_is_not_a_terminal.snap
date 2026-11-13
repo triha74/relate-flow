@@ -1,0 +1,14 @@
+---
+source: crates/relate-flow/tests/cmd_status.rs
+expression: status
+---
+{
+  "draft": true,
+  "steps": [
+    {
+      "actor": "invoices",
+      "disposition": "ready",
+      "id": "parse"
+    }
+  ]
+}

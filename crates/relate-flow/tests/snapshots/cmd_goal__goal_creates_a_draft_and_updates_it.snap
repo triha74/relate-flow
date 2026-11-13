@@ -1,0 +1,8 @@
+---
+source: crates/relate-flow/tests/cmd_goal.rs
+expression: created
+---
+{
+  "goal": "Pay the invoice",
+  "retries": 2
+}

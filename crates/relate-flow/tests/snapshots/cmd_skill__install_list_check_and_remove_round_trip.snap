@@ -1,0 +1,11 @@
+---
+source: crates/relate-flow/tests/cmd_skill.rs
+expression: installed
+---
+{
+  "agents": [
+    "cursor"
+  ],
+  "skill": "relate-flow",
+  "version": "0.1.0"
+}

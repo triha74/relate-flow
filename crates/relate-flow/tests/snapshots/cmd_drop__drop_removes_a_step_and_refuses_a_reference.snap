@@ -1,0 +1,9 @@
+---
+source: crates/relate-flow/tests/cmd_drop.rs
+expression: dropped
+---
+{
+  "steps": [
+    "parse"
+  ]
+}
